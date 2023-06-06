@@ -1,0 +1,19 @@
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/646b57fa61e6e4014aeda4cb
+
+###
+
+POST http://localhost:3000/users
+Content-type: application/json
+
+{
+    "name": "Ryan Perera",
+    "registerToSystem": "registered"
+}
+
+###
+
+DELETE http://localhost:3000/users/646b4881f001b04e10acedfa
